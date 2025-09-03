@@ -58,12 +58,12 @@ Front-end	HTML5, CSS3	Static pages with consistent styling
 Styling	CSS (styles.css)	Centralized styling for all pages
 Backend	None	No backend logic or database included
 JavaScript	None	No client-side scripting included
-<h2>Design and Usability<h2>
+<h2>Design and Usability</h2>
 •	Color Scheme: The application uses a calming green background for containers (rgb(149, 196, 162)) and a contrasting body background (#918a37), with blue accents for headings and pinkish text for list items. This creates a professional yet approachable aesthetic suitable for medical staff.
 •	Typography: Combines Arial for general text, Segoe UI for headings, and Times New Roman for list items, ensuring readability but with slight inconsistency in font choices.
 •	User Experience: The forms are intuitive, with clear labels and buttons. The dashboards are logically organized, with key actions (e.g., logout, add visit) prominently placed.
 •	Accessibility: The use of high-contrast colors and large font sizes (16px for inputs) supports readability, but the lack of ARIA attributes or keyboard navigation suggests accessibility improvements are needed.
-<h2>Potential Improvements<h2>
+<h2>Potential Improvements</h2>
 1.	Backend Integration: Implement a backend (e.g., Node.js, Django) to handle authentication, patient data storage, and search functionality.
 2.	JavaScript for Interactivity: Add client-side JavaScript for form validation, dynamic search, and token generation.
 3.	Responsive Design: Include CSS media queries to optimize for mobile devices.
