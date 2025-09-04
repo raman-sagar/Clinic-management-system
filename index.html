@@ -16,7 +16,7 @@
         <button type="submit">Login</button>
       </form>
       <p>Don't have an account? <a href="signup.html">Signup</a></p>
-        <p>Forget Password? <a href="#" id="reset">Reset</a></p>
+      <p>Forget Password? <a href="#" id="reset">Reset</a></p>
       <div id="error"></div>
     </div>
 
@@ -25,7 +25,7 @@
       import {
         getAuth,
         signInWithEmailAndPassword,
-       sendPasswordResetEmail,
+        sendPasswordResetEmail,
       } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js";
       import {
         getFirestore,
@@ -84,7 +84,7 @@
         }
       });
 
-       reset.addEventListener("click", () => {
+      reset.addEventListener("click", () => {
         var email = document.getElementById("email").value;
 
         console.log(email);
@@ -109,5 +109,3 @@
     </script>
   </body>
 </html>
-
-
